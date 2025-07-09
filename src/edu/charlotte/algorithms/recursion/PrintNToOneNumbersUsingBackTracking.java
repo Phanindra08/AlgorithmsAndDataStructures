@@ -14,7 +14,7 @@ public class PrintNToOneNumbersUsingBackTracking {
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter from which number you want to print till 1 in the descending order: ");
         int limit = scan.nextInt();
-        printNumber(1, limit);
         scan.close();
+        printNumber(1, limit);
     }
 }

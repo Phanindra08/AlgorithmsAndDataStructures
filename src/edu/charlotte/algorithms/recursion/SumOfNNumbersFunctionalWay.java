@@ -13,7 +13,7 @@ public class SumOfNNumbersFunctionalWay {
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter the whole number n: ");
         int n = scan.nextInt();
-        System.out.println("The sum of the numbers is " + sumOfNumbers(n));
         scan.close();
+        System.out.println("The sum of the numbers is " + sumOfNumbers(n));
     }
 }

@@ -14,7 +14,7 @@ public class PrintOneToNNumbersUsingBacktracking {
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter till which number you want to print in ascending order: ");
         int limit = scan.nextInt();
-        printNumber(limit);
         scan.close();
+        printNumber(limit);
     }
 }

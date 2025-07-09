@@ -14,7 +14,7 @@ public class PrintNameNTimes {
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter the number of times you want to print your name: ");
         int limit = scan.nextInt();
-        printingName(1, limit);
         scan.close();
+        printingName(1, limit);
     }
 }

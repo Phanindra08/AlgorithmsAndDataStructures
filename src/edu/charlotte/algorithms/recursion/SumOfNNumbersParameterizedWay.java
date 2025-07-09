@@ -15,7 +15,7 @@ public class SumOfNNumbersParameterizedWay {
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter the whole number n: ");
         int n = scan.nextInt();
-        sumOfNumbers(n, 0);
         scan.close();
+        sumOfNumbers(n, 0);
     }
 }
