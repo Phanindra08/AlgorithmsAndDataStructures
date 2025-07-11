@@ -27,8 +27,10 @@ public class ReversingAnArray {
         System.out.print("Enter the size of the array: ");
         int size = scan.nextInt();
         int[] arrayOfNumbers = new int[size];
-        for(int index = 0; index < size; index++)
+        for(int index = 0; index < size; index++) {
+            System.out.printf("Enter the element %d: ", index);
             arrayOfNumbers[index] = scan.nextInt();
+        }
         scan.close();
         reversingAnArrayUsingTwoPointers(arrayOfNumbers, 0, size - 1);
         System.out.println("The array after reversing using two pointers is: " + Arrays.toString(arrayOfNumbers));
